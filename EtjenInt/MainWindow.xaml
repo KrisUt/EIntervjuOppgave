@@ -1,0 +1,66 @@
+﻿<Window x:Class="EtjenInt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gmaps="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation"
+        xmlns:local="clr-namespace:EtjenInt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1680">
+    <Grid>
+        <gmaps:GMapControl x:Name="mapView" Loaded="mapView_Loaded" CanDragMap="True" MaxZoom="18" MinZoom="2" Margin="0,0,184,10" />
+        <CheckBox Content="Alabama" x:Name="AL" Click="checkbox_AL" HorizontalAlignment="Left" Margin="1524,109,0,0" VerticalAlignment="Top" IsChecked="False" Width="81"/>
+        <CheckBox Content="Alaska" x:Name="AK" Click="checkbox_AK" HorizontalAlignment="Left" Margin="1524,124,0,0" VerticalAlignment="Top" IsChecked="False" Width="65"/>
+        <CheckBox Content="Arizona" x:Name="AZ" Click="checkbox_AZ" HorizontalAlignment="Left" Margin="1524,139,0,0" VerticalAlignment="Top" IsChecked="False" Width="72"/>
+        <CheckBox Content="Arkansas" x:Name="AR" Click="checkbox_AR" HorizontalAlignment="Left" Margin="1524,154,0,0" VerticalAlignment="Top" IsChecked="False" Width="82"/>
+        <CheckBox Content=" California" x:Name="CA"  Click="checkbox_CA" HorizontalAlignment="Left" Margin="1524,169,0,0" VerticalAlignment="Top" IsChecked="False" Width="89"/>
+        <CheckBox Content=" Colorado" x:Name="CO"  Click="checkbox_CO" HorizontalAlignment="Left" Margin="1524,184,0,0" VerticalAlignment="Top" IsChecked="False" Width="88"/>
+        <CheckBox Content=" Connecticut" x:Name="CT"  Click="checkbox_CT" HorizontalAlignment="Left" Margin="1524,199,0,0" VerticalAlignment="Top" IsChecked="False" Width="104"/>
+        <CheckBox Content=" Delaware" x:Name="DE"  Click="checkbox_DE" HorizontalAlignment="Left" Margin="1524,214,0,0" VerticalAlignment="Top" IsChecked="False" Width="88"/>
+        <CheckBox Content=" Florida" x:Name="FL"  Click="checkbox_FL" HorizontalAlignment="Left" Margin="1524,229,0,0" VerticalAlignment="Top" IsChecked="False" Width="72"/>
+        <CheckBox Content=" Georgia" x:Name="GA"  Click="checkbox_GA" HorizontalAlignment="Left" Margin="1524,244,0,0" VerticalAlignment="Top" IsChecked="False" Width="78"/>
+        <CheckBox Content=" Hawaii" x:Name="HI"  Click="checkbox_HI" HorizontalAlignment="Left" Margin="1524,259,0,0" VerticalAlignment="Top" IsChecked="False" Width="71"/>
+        <CheckBox Content=" Idaho" x:Name="ID"  Click="checkbox_ID" HorizontalAlignment="Left" Margin="1524,274,0,0" VerticalAlignment="Top" IsChecked="False" Width="64"/>
+        <CheckBox Content=" Illinois" x:Name="IL"  Click="checkbox_IL" HorizontalAlignment="Left" Margin="1524,289,0,0" VerticalAlignment="Top" IsChecked="False" Width="69"/>
+        <CheckBox Content=" Indiana" x:Name="IN"  Click="checkbox_IN" HorizontalAlignment="Left" Margin="1524,304,0,0" VerticalAlignment="Top" IsChecked="False" Width="76"/>
+        <CheckBox Content=" Iowa" x:Name="IA"  Click="checkbox_IA" HorizontalAlignment="Left" Margin="1524,319,0,0" VerticalAlignment="Top" IsChecked="False" Width="58"/>
+        <CheckBox Content=" Kansas" x:Name="KS"  Click="checkbox_KS" HorizontalAlignment="Left" Margin="1524,334,0,0" VerticalAlignment="Top" IsChecked="False" Width="72"/>
+        <CheckBox Content=" Kentucky" x:Name="KY"  Click="checkbox_KY" HorizontalAlignment="Left" Margin="1524,349,0,0" VerticalAlignment="Top" IsChecked="False" Width="87"/>
+        <CheckBox Content=" Louisiana" x:Name="LA"  Click="checkbox_LA" HorizontalAlignment="Left" Margin="1524,364,0,0" VerticalAlignment="Top" IsChecked="False" Width="88"/>
+        <CheckBox Content=" Maine" x:Name="ME"  Click="checkbox_ME" HorizontalAlignment="Left" Margin="1524,379,0,0" VerticalAlignment="Top" IsChecked="False" Width="68"/>
+        <CheckBox Content=" Maryland" x:Name="MD"  Click="checkbox_MD" HorizontalAlignment="Left" Margin="1524,394,0,0" VerticalAlignment="Top" IsChecked="False" Width="89"/>
+        <CheckBox Content=" Massachusetts" x:Name="MA"  Click="checkbox_MA" HorizontalAlignment="Left" Margin="1524,409,0,0" VerticalAlignment="Top" IsChecked="False" Width="117"/>
+        <CheckBox Content=" Michigan" x:Name="MI"  Click="checkbox_MI" HorizontalAlignment="Left" Margin="1524,424,0,0" VerticalAlignment="Top" IsChecked="False" Width="88"/>
+        <CheckBox Content=" Minnesota" x:Name="MN"  Click="checkbox_MN" HorizontalAlignment="Left" Margin="1524,439,0,0" VerticalAlignment="Top" IsChecked="False" Width="96"/>
+        <CheckBox Content=" Mississippi" x:Name="MS"  Click="checkbox_MS" HorizontalAlignment="Left" Margin="1524,454,0,0" VerticalAlignment="Top" IsChecked="False" Width="98"/>
+        <CheckBox Content=" Missouri" x:Name="MO"  Click="checkbox_MO" HorizontalAlignment="Left" Margin="1524,469,0,0" VerticalAlignment="Top" IsChecked="False" Width="82"/>
+        <CheckBox Content=" Montana" x:Name="MT"  Click="checkbox_MT" HorizontalAlignment="Left" Margin="1524,484,0,0" VerticalAlignment="Top" IsChecked="False" Width="86"/>
+        <CheckBox Content=" Nebraska" x:Name="NE"  Click="checkbox_NE" HorizontalAlignment="Left" Margin="1524,499,0,0" VerticalAlignment="Top" IsChecked="False" Width="89"/>
+        <CheckBox Content=" Nevada" x:Name="NV"  Click="checkbox_NV" HorizontalAlignment="Left" Margin="1524,514,0,0" VerticalAlignment="Top" IsChecked="False" Width="77"/>
+        <CheckBox Content=" New Hampshire" x:Name="NH"  Click="checkbox_NH" HorizontalAlignment="Left" Margin="1524,529,0,0" VerticalAlignment="Top" IsChecked="False" Width="117"/>
+        <CheckBox Content=" New Jersey" x:Name="NJ"  Click="checkbox_NJ" HorizontalAlignment="Left" Margin="1524,544,0,0" VerticalAlignment="Top" IsChecked="False" Width="100"/>
+        <CheckBox Content=" New Mexico" x:Name="NM"  Click="checkbox_NM" HorizontalAlignment="Left" Margin="1524,559,0,0" VerticalAlignment="Top" IsChecked="False" Width="108"/>
+        <CheckBox Content=" New York" x:Name="NY"  Click="checkbox_NY" HorizontalAlignment="Left" Margin="1524,574,0,0" VerticalAlignment="Top" IsChecked="False" Width="89"/>
+        <CheckBox Content=" North Carolina" x:Name="NC"  Click="checkbox_NC" HorizontalAlignment="Left" Margin="1524,589,0,0" VerticalAlignment="Top" IsChecked="False" Width="117"/>
+        <CheckBox Content=" North Dakota" x:Name="ND"  Click="checkbox_ND" HorizontalAlignment="Left" Margin="1524,604,0,0" VerticalAlignment="Top" IsChecked="False" Width="116"/>
+        <CheckBox Content=" Ohio" x:Name="OH"  Click="checkbox_OH" HorizontalAlignment="Left" Margin="1524,619,0,0" VerticalAlignment="Top" IsChecked="False" Width="59"/>
+        <CheckBox Content=" Oklahoma" x:Name="OK"  Click="checkbox_OK" HorizontalAlignment="Left" Margin="1524,634,0,0" VerticalAlignment="Top" IsChecked="False" Width="94"/>
+        <CheckBox Content=" Oregon" x:Name="OR"  Click="checkbox_OR" HorizontalAlignment="Left" Margin="1524,649,0,0" VerticalAlignment="Top" IsChecked="False" Width="77"/>
+        <CheckBox Content=" Pennsylvania" x:Name="PA"  Click="checkbox_PA" HorizontalAlignment="Left" Margin="1524,664,0,0" VerticalAlignment="Top" IsChecked="False" Width="111"/>
+        <CheckBox Content=" Rhode Island" x:Name="RI"  Click="checkbox_RI" HorizontalAlignment="Left" Margin="1524,679,0,0" VerticalAlignment="Top" IsChecked="False" Width="112"/>
+        <CheckBox Content=" South Carolina" x:Name="SC"  Click="checkbox_SC" HorizontalAlignment="Left" Margin="1524,694,0,0" VerticalAlignment="Top" IsChecked="False" Width="117"/>
+        <CheckBox Content=" South Dakota" x:Name="SD"  Click="checkbox_SD" HorizontalAlignment="Left" Margin="1524,709,0,0" VerticalAlignment="Top" IsChecked="False" Width="116"/>
+        <CheckBox Content=" Tennessee" x:Name="TN"  Click="checkbox_TN" HorizontalAlignment="Left" Margin="1524,724,0,0" VerticalAlignment="Top" IsChecked="False" Width="94"/>
+        <CheckBox Content=" Texas" x:Name="TX"  Click="checkbox_TX" HorizontalAlignment="Left" Margin="1524,739,0,0" VerticalAlignment="Top" IsChecked="False" Width="63"/>
+        <CheckBox Content=" Utah" x:Name="UT"  Click="checkbox_UT" HorizontalAlignment="Left" Margin="1524,754,0,0" VerticalAlignment="Top" IsChecked="False" Width="59"/>
+        <CheckBox Content=" Vermont" x:Name="VT"  Click="checkbox_VT" HorizontalAlignment="Left" Margin="1524,769,0,0" VerticalAlignment="Top" IsChecked="False" Width="84"/>
+        <CheckBox Content=" Virginia" x:Name="VA"  Click="checkbox_VA" HorizontalAlignment="Left" Margin="1524,784,0,0" VerticalAlignment="Top" IsChecked="False" Width="77"/>
+        <CheckBox Content=" Washington" x:Name="WA"  Click="checkbox_WA" HorizontalAlignment="Left" Margin="1524,799,0,0" VerticalAlignment="Top" IsChecked="False" Width="104"/>
+        <CheckBox Content=" West Virginia" x:Name="WV"  Click="checkbox_WV" HorizontalAlignment="Left" Margin="1524,814,0,0" VerticalAlignment="Top" IsChecked="False" Width="113"/>
+        <CheckBox Content=" Wisconsin" x:Name="WI"  Click="checkbox_WI" HorizontalAlignment="Left" Margin="1524,829,0,0" VerticalAlignment="Top" IsChecked="False" Width="93"/>
+        <CheckBox Content=" Wyoming" x:Name="WY"  Click="checkbox_WY" HorizontalAlignment="Left" Margin="1524,844,0,0" VerticalAlignment="Top" IsChecked="False" Width="91"/>
+        <TextBox HorizontalAlignment="Left" x:Name="agent_Text" Margin="1496,34,0,0" TextWrapping="Wrap" Text="Agent name" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Search" x:Name="SearchBtn" Click="agent_Search" HorizontalAlignment="Left" Margin="1614,33,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.387,0.086"/>
+    </Grid>
+</Window>
+    

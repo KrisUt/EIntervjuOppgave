@@ -1,0 +1,5 @@
+C:\Users\Kanata\Documents\Kode\EtjenInt\EtjenInt\obj\Release\EtjenInt.csproj.AssemblyReference.cache
+C:\Users\Kanata\Documents\Kode\EtjenInt\EtjenInt\obj\Release\EtjenInt.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kanata\Documents\Kode\EtjenInt\EtjenInt\obj\Release\EtjenInt.Properties.Resources.resources
+C:\Users\Kanata\Documents\Kode\EtjenInt\EtjenInt\obj\Release\EtjenInt.csproj.GenerateResource.cache
+C:\Users\Kanata\Documents\Kode\EtjenInt\EtjenInt\obj\Release\EtjenInt.csproj.CoreCompileInputs.cache
